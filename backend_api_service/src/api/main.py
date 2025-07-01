@@ -59,7 +59,7 @@ app.add_middleware(
 
 # ========== DATABASE MODELS ==========
 
- 
+
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
